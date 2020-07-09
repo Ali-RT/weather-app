@@ -5,7 +5,7 @@ from .forms import CityForm
 
 
 def index(request):
-    url = 'http://api.openweathermap.org/data/2.5/weather?q={}&units=metric&appid=7f8a892c5ec12eac519e2ec941fd041d'
+    url = 'http://api.openweathermap.org/data/2.5/weather?q={}&units=metric&appid=xxx'
 
     err_msg = ''
     message = ''
